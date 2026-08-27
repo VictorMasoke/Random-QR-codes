@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random QR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="active">Discover</a>
+      <a href="top10.html">Top 10</a>
+    </nav>
+
+    <div class="hero">
+      <h1 class="title">Somewhere, at random.</h1>
+      <p class="subtitle">
+        No names. No links. Just a code and a feeling. Scan one with your
+        phone camera to find out where it goes — then vote if it was worth it.
+      </p>
+    </div>
+
+    <div class="level-bar" id="levelBar">
+      <div class="level-row">
+        <span class="level-name" id="levelName">Newcomer</span>
+        <span class="level-count" id="levelCount">0 mysteries revealed</span>
+      </div>
+      <div class="level-track">
+        <div class="level-fill" id="levelFill"></div>
+      </div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <div class="reroll-wrap">
+      <button class="btn-reroll" id="rerollBtn">Show me two more</button>
+    </div>
+
+    <p class="stats-line" id="statsLine"></p>
+
+    <div class="toast" id="levelToast"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
