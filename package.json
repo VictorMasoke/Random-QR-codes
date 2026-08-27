@@ -11,5 +11,8 @@
     "better-sqlite3": "^11.3.0",
     "express": "^4.21.0",
     "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4"
   }
 }

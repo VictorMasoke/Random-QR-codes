@@ -67,6 +67,16 @@ nav a.active {
   background: var(--ink);
 }
 
+nav a.nav-github {
+  margin-left: 8px;
+  color: var(--ink-soft);
+  border: 1px solid var(--hairline);
+}
+
+nav a.nav-github:hover {
+  border-color: var(--ink-soft);
+}
+
 .hero {
   max-width: 640px;
   text-align: center;
